@@ -1,0 +1,15 @@
+// Căutați ce înseamnă un arbore AVL și un arbore B(B-tree) și explicați.
+
+Un arbore AVL este un arbore binar echilibrat, fiecare nod avand un factor de echilibru.
+Factor de echilibru = inaltimea subarborelui stang - inaltimea subarborelui drept;
+Daca factorul de echilibru devine -2 sau 2 arborele este reechilibrat prin rotatii.
+Acest lucru permite operatii eficiente cu acesta
+(cautarea, inserarea si stergerea avand complexitate O(log n)).
+Acest tip de arbore este potrivit pentru algoritmi in care datele sunt accesate frecvent.
+
+Un arbore B este o un arbore binar de cautare care nu este neaparat binar.
+Acesta este folosit in sisteme de fisiere si baze de date.
+Toate frunzele acestuia se afla pe acelasi nivel si arborele ramane echilibrat
+prin redistribuirea valorilor si impartirea nodurilor cand se umple.
+Acest tip de arbore este potrivit pentru gestionarea unei cantitati mari de date,
+deoarece are o structura ce minimizeaza numarul de accesari pe disc.

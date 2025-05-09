@@ -1,0 +1,2 @@
+Tail recurssion este atunci cand apelezi functia recursiva la finalul functiei(nu mai exista nicio instructiune dupa apel).
+Astfel ruleaza doar o functie la un moment de timp dat si nu se mai consuma atat de multe resurse.

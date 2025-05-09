@@ -1,0 +1,9 @@
+Un exemplu recursiv din viata de zi cu zi este urcatul scarilor.
+Nimeni nu numara scarile inainte sa le urce, deci conceptul este ca urci scari pana nu mai ai scari de urcat.
+Moment in care urcatul scarilor se opreste.
+
+functie urca()
+|   daca(nu mai sunt scari) atunci
+|       opreste functia
+|   urca scara
+|   urca()
