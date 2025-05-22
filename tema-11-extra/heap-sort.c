@@ -1,3 +1,5 @@
+//Sortati un vector cu ajutorul unui Heap.
+//Trebuie implementat structura de date. (Heap Sort)
 #include "heap.h"
 #include <stdio.h>
 
